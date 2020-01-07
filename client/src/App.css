@@ -1,0 +1,37 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: auto;
+}
+
+.leftsidebar {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  justify-content: flex-start;
+  align-items: center;
+  color: #585858;
+  /* text-align: center; */
+  padding: 1rem 0 1rem 0;
+  background: #000000;
+  /* background: linear-gradient(45deg, #000000, #152331); */
+  flex: 1;
+  /* border: 1px solid #585858; */
+  /* padding: 2rem; */
+}
+
+.mainContent {
+  padding: 2rem;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 7;
+  /* border: 1px solid #585858; */
+  /* color: white; */
+}
