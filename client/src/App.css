@@ -11,14 +11,14 @@
 .leftSidebar {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: space-between;
   align-items: center;
   color: #f6f6f6;
   margin: auto;
   height: 100%;
   /* text-align: center; */
-  padding: 1rem 0 1rem 0;
+  padding: 2rem 0;
   /* background: #000000; */
   background-color: #00072d;
   /* background: linear-gradient(45deg, #000000, #152331); */
@@ -28,15 +28,62 @@
 }
 
 .item {
+  flex: 2;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   color: #a6e1fa;
   height: 100%;
+  margin: auto;
 }
 
-.item-2 {
+.projects {
+  flex: 3;
   color: #0e6ba8;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #a6e1fa;
+  height: 100%;
+  margin: auto;
 }
 
-.item-3 {
+.media-container {
+  flex: 1;
+  color: #0e6ba8;
+  display: flex;
+  /* text-align: center; */
+  flex-direction: row;
+  /* align-items: flex-start; */
+  justify-content: right;
+  color: #a6e1fa;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  padding: 0 1.5rem;
+}
+
+.media {
+  flex: 1;
+  color: #0e6ba8;
+  display: flex;
+  /* text-align: center; */
+  flex-direction: row;
+  /* align-items: flex-start; */
+  justify-content: center;
+  color: #a6e1fa;
+  /* width: 100%; */
+  margin: auto;
+}
+
+.picture {
+  border-radius: 50%;
+  width: 12rem;
+  flex: 3;
 }
 
 .mainContent {
@@ -46,7 +93,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  flex: 5;
+  flex: 4;
   /* border: 1px solid #585858; */
   color: white;
   background-color: #0a2472;
