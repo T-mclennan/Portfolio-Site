@@ -8,8 +8,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <Sidebar.js /> */}
-        {/* <Main.js /> */}
+        <Sidebar />
+        <Main />
       </div>
     );
   }
