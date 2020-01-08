@@ -14,15 +14,28 @@ class Sidebar extends Component {
   render() {
     return (
       <div className="leftSidebar">
-        <img src={headshot} className="picture" alt="headshot" />
+        <a href="#home">
+          <img src={headshot} className="picture" alt="headshot" />
+        </a>
         <div className="item">
           <h4>Tristan Mclennan</h4>
           <div>Junior Full-Stack Developer</div>
         </div>
         <div className="projects">
-          <div className="project">Chess 960</div>
+          <ul>
+            <li>
+              <a href="#chess">Chess 960</a>
+            </li>
+            <li>
+              <a href="#sfsafe">SFSafe</a>
+            </li>
+            <li>
+              <a href="#forms">Forms</a>
+            </li>
+          </ul>
+          {/* <li className="project">Chess 960</li>
           <div className="project">SFSafe</div>
-          <div className="project">Forms</div>
+          <div className="project">Forms</div> */}
         </div>
         <div className="media-container">
           <div className="media">
