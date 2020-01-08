@@ -24,7 +24,7 @@ class Main extends Component {
           </p>
         </section>
         <section id="sfsafe">
-          <h1>Chess 960</h1>
+          <h1>SFsafe</h1>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
             error quaerat dolore alias libero temporibus dolorum maiores
@@ -33,7 +33,7 @@ class Main extends Component {
           </p>
         </section>
         <section id="forms">
-          <h1>Chess 960</h1>
+          <h1>Forms</h1>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
             error quaerat dolore alias libero temporibus dolorum maiores
