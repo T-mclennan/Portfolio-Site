@@ -30,7 +30,7 @@ class Sidebar extends Component {
               <a href="#sfsafe">SFSafe</a>
             </li>
             <li>
-              <a href="#forms">Forms</a>
+              <a href="#forms">Form Practice</a>
             </li>
           </ul>
           {/* <li className="project">Chess 960</li>

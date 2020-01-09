@@ -65,7 +65,10 @@ class Main extends Component {
           </p>
         </section>
         <section id="forms">
-          <h1>Forms</h1>
+          <a href={"https://tmclennan-form-assignment.herokuapp.com/"}>
+            <h1>Form Practice</h1>
+          </a>
+
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
             error quaerat dolore alias libero temporibus dolorum maiores
