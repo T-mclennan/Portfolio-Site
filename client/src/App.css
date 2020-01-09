@@ -132,7 +132,22 @@ body {
   flex: 4;
   /* border: 1px solid #585858; */
   color: white;
-  background-color: #0a2472;
+  /* background-color: #0a2472; */
+  background: repeating-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.16) 0px,
+      rgba(255, 255, 255, 0.16) 1px,
+      transparent 1px,
+      transparent 26px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.16) 0px,
+      rgba(255, 255, 255, 0.16) 1px,
+      transparent 1px,
+      transparent 26px
+    ),
+    linear-gradient(90deg, hsl(219, 97%, 17%), hsl(219, 97%, 17%));
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   scroll-behavior: smooth;
@@ -159,16 +174,101 @@ section p {
   font-size: 1.5;
 }
 
+section#about {
+}
+
 section#chess {
-  background-color: cornflowerblue;
+  /* background-color: cornflowerblue; */
+  background: repeating-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.16) 0px,
+      rgba(255, 255, 255, 0.16) 1px,
+      transparent 1px,
+      transparent 26px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.16) 0px,
+      rgba(255, 255, 255, 0.16) 1px,
+      transparent 1px,
+      transparent 26px
+    ),
+    linear-gradient(180deg, hsl(219, 97%, 17%), hsl(206, 87%, 54%));
+}
+
+section#chess2 {
+  /* background-color: cornflowerblue; */
+  background: repeating-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.16) 0px,
+      rgba(255, 255, 255, 0.16) 1px,
+      transparent 1px,
+      transparent 26px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.16) 0px,
+      rgba(255, 255, 255, 0.16) 1px,
+      transparent 1px,
+      transparent 26px
+    ),
+    linear-gradient(180deg, hsl(206, 87%, 54%), rgb(44, 175, 169));
+  background-color: ;
 }
 
 section#sfsafe {
-  background-color: darkcyan;
+  background: repeating-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.16) 0px,
+      rgba(255, 255, 255, 0.16) 1px,
+      transparent 1px,
+      transparent 26px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.16) 0px,
+      rgba(255, 255, 255, 0.16) 1px,
+      transparent 1px,
+      transparent 26px
+    ),
+    linear-gradient(180deg, rgb(44, 175, 169), rgb(44, 175, 169));
+}
+
+section#sfsafe2 {
+  /* background-color: cornflowerblue; */
+  background: repeating-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.16) 0px,
+      rgba(255, 255, 255, 0.16) 1px,
+      transparent 1px,
+      transparent 26px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.16) 0px,
+      rgba(255, 255, 255, 0.16) 1px,
+      transparent 1px,
+      transparent 26px
+    ),
+    linear-gradient(180deg, rgb(44, 175, 169), rgb(192, 53, 45));
 }
 
 section#forms {
-  background-color: darksalmon;
+  background: repeating-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.16) 0px,
+      rgba(255, 255, 255, 0.16) 1px,
+      transparent 1px,
+      transparent 26px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.16) 0px,
+      rgba(255, 255, 255, 0.16) 1px,
+      transparent 1px,
+      transparent 26px
+    ),
+    linear-gradient(180deg, rgb(192, 53, 45), rgb(192, 53, 45));
 }
 
 /* color pallete: */

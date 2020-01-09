@@ -39,7 +39,7 @@ class Main extends Component {
             architecto ullam et sit.
           </p>
         </section>
-        <section id="chess">
+        <section id="chess2">
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
             error quaerat dolore alias libero temporibus dolorum maiores
@@ -56,7 +56,7 @@ class Main extends Component {
             architecto ullam et sit.
           </p>
         </section>
-        <section id="sfsafe">
+        <section id="sfsafe2">
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
             error quaerat dolore alias libero temporibus dolorum maiores
