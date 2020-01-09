@@ -5,8 +5,24 @@ class Main extends Component {
   render() {
     return (
       <div className="mainContent">
-        <section id="about">
+        <section id="home">
           <h1>About</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
+            error quaerat dolore alias libero temporibus dolorum maiores
+            officiis sunt dignissimos nulla molestias, unde in atque consectetur
+            architecto ullam et sit.
+          </p>
+        </section>
+        <section id="home">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
+            error quaerat dolore alias libero temporibus dolorum maiores
+            officiis sunt dignissimos nulla molestias, unde in atque consectetur
+            architecto ullam et sit.
+          </p>
+        </section>
+        <section id="home">
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
             error quaerat dolore alias libero temporibus dolorum maiores
@@ -23,6 +39,14 @@ class Main extends Component {
             architecto ullam et sit.
           </p>
         </section>
+        <section id="chess">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
+            error quaerat dolore alias libero temporibus dolorum maiores
+            officiis sunt dignissimos nulla molestias, unde in atque consectetur
+            architecto ullam et sit.
+          </p>
+        </section>
         <section id="sfsafe">
           <h1>SFsafe</h1>
           <p>
@@ -32,8 +56,25 @@ class Main extends Component {
             architecto ullam et sit.
           </p>
         </section>
+        <section id="sfsafe">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
+            error quaerat dolore alias libero temporibus dolorum maiores
+            officiis sunt dignissimos nulla molestias, unde in atque consectetur
+            architecto ullam et sit.
+          </p>
+        </section>
         <section id="forms">
           <h1>Forms</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
+            error quaerat dolore alias libero temporibus dolorum maiores
+            officiis sunt dignissimos nulla molestias, unde in atque consectetur
+            architecto ullam et sit.
+          </p>
+        </section>
+
+        <section id="forms">
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
             error quaerat dolore alias libero temporibus dolorum maiores
