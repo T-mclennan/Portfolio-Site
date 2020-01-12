@@ -174,7 +174,40 @@ section p {
   font-size: 1.5;
 }
 
-section#about {
+section#home {
+  background: repeating-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.16) 0px,
+      rgba(255, 255, 255, 0.16) 1px,
+      transparent 1px,
+      transparent 26px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.16) 0px,
+      rgba(255, 255, 255, 0.16) 1px,
+      transparent 1px,
+      transparent 26px
+    ),
+    linear-gradient(180deg, #00072d, #00072d);
+}
+
+section#home2 {
+  background: repeating-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.16) 0px,
+      rgba(255, 255, 255, 0.16) 1px,
+      transparent 1px,
+      transparent 26px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.16) 0px,
+      rgba(255, 255, 255, 0.16) 1px,
+      transparent 1px,
+      transparent 26px
+    ),
+    linear-gradient(180deg, #00072d, hsl(219, 97%, 17%));
 }
 
 section#chess {
@@ -213,7 +246,6 @@ section#chess2 {
       transparent 26px
     ),
     linear-gradient(180deg, hsl(206, 87%, 54%), rgb(44, 175, 169));
-  background-color: ;
 }
 
 section#sfsafe {

@@ -22,7 +22,7 @@ class Main extends Component {
             architecto ullam et sit.
           </p>
         </section>
-        <section id="home">
+        <section id="home2">
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
             error quaerat dolore alias libero temporibus dolorum maiores
@@ -70,10 +70,10 @@ class Main extends Component {
           </a>
 
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
-            error quaerat dolore alias libero temporibus dolorum maiores
-            officiis sunt dignissimos nulla molestias, unde in atque consectetur
-            architecto ullam et sit.
+            Forms practice aims to develop professionalism around the use of
+            forms. - Node and Express for the server - EJS was used to template
+            the pages - Bootstrap and CSS for styling - Costum regex for
+            validation - reCaptcha 2.0 - Google map and geolocation services
           </p>
         </section>
 
