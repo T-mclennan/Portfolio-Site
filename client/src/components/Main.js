@@ -6,17 +6,23 @@ class Main extends Component {
   render() {
     return (
       <div className="mainContent">
-        <section id="home">
-          <Typer />
-        </section>
+        {/* <section id="home">
+          <div class="stars">
+            {" "}
+            <Typer />
+          </div>
+          {/* <Typer /> 
+        </section> */}
 
         <section id="home2">
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
-            error quaerat dolore alias libero temporibus dolorum maiores
-            officiis sunt dignissimos nulla molestias, unde in atque consectetur
-            architecto ullam et sit.
-          </p>
+          {/* <h2>
+            I enjoy the design and testing of systems. Here are some of my
+            recent projects:
+          </h2> */}
+          <div class="stars">
+            {" "}
+            <Typer />
+          </div>
         </section>
         <section id="chess">
           <h1>Chess 960</h1>
