@@ -194,7 +194,7 @@ section#home {
     linear-gradient(180deg, #00072d, #00072d);
   align-items: flex-start;
   text-align: left;
-  padding: 12rem !important;
+  padding: 12rem 8rem !important;
 }
 
 section#home2 {
