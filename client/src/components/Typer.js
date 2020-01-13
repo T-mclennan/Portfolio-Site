@@ -7,13 +7,13 @@ export class Typer extends Component {
 
     this.state = {
       words: [
-        "goal: explore the MERN stack",
-        "passions: tending houseplants, jogging, coding in javaScript.",
-        "project: Chess 960 Application.",
-        "focus: Learn something new every day.",
-        "event: Hackathon 2020 @ UC Davis",
-        "book: Clean Code",
-        "sport: Karate"
+        "focus: gain fluency with the MERN stack.",
+        "passions: houseplants, learning karate, coding in javaScript.",
+        "project: Chess 960.",
+        "goal: Learn something new every day.",
+        "event: Hackathon 2020 @ UC Davis.",
+        "book: Clean Code.",
+        "favorite movie: Parasite."
       ],
       txt: "",
       wait: 3000,
@@ -75,7 +75,7 @@ export class Typer extends Component {
   render() {
     return (
       <h2 style={typeStyling}>
-        My current
+        Current
         <span
           style={{
             borderRight: this.state.cursorBlink ? "0.2rem solid #777" : ""

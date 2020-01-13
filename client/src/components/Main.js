@@ -9,14 +9,7 @@ class Main extends Component {
         <section id="home">
           <Typer />
         </section>
-        <section id="home">
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
-            error quaerat dolore alias libero temporibus dolorum maiores
-            officiis sunt dignissimos nulla molestias, unde in atque consectetur
-            architecto ullam et sit.
-          </p>
-        </section>
+
         <section id="home2">
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
