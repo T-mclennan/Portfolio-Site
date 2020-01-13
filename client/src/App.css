@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -120,6 +122,10 @@ body {
   border-radius: 50%;
   width: 11rem;
   flex: 3;
+}
+
+.txt {
+  border-right: 0.2rem solid #777;
 }
 
 .mainContent {
