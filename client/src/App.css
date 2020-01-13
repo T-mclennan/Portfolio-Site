@@ -124,10 +124,6 @@ body {
   flex: 3;
 }
 
-.txt {
-  border-right: 0.2rem solid #777;
-}
-
 .mainContent {
   /* display: flex; */
   height: 100%;
@@ -196,6 +192,9 @@ section#home {
       transparent 26px
     ),
     linear-gradient(180deg, #00072d, #00072d);
+  align-items: flex-start;
+  text-align: left;
+  padding: 12rem !important;
 }
 
 section#home2 {

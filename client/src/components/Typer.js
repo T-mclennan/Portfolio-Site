@@ -8,9 +8,9 @@ export class Typer extends Component {
     this.state = {
       words: [
         "goal: explore the MERN stack",
-        "passions: houseplants, jogging, coding.",
-        "project: Chess 960.",
-        "focus: Learn more every day.",
+        "passions: tending houseplants, jogging, coding in javaScript.",
+        "project: Chess 960 Application.",
+        "focus: Learn something new every day.",
         "event: Hackathon 2020 @ UC Davis",
         "book: Clean Code",
         "sport: Karate"
@@ -74,8 +74,8 @@ export class Typer extends Component {
 
   render() {
     return (
-      <h1 style={typeStyling}>
-        Current
+      <h2 style={typeStyling}>
+        My current
         <span
           style={{
             borderRight: this.state.cursorBlink ? "0.2rem solid #777" : ""
@@ -84,13 +84,14 @@ export class Typer extends Component {
           {" "}
           {this.state.txt}
         </span>
-      </h1>
+      </h2>
     );
   }
 }
 
 const typeStyling = {
-  fontFamily: "Raleway, sans-serif"
+  fontFamily: "Raleway, sans-serif",
+  fontSize: "3.5rem"
 };
 
 export default Typer;
