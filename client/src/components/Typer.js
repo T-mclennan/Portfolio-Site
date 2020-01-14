@@ -7,13 +7,13 @@ export class Typer extends Component {
 
     this.state = {
       words: [
-        "focus: gain fluency with the MERN stack.",
-        "passions: houseplants, learning karate, coding in javaScript.",
-        "project: Chess 960.",
-        "goal: Learn something new every day.",
-        "event: Hackathon 2020 @ UC Davis.",
-        "book: Clean Code.",
-        "favorite movie: Parasite."
+        " focus: gain fluency with the MERN stack.",
+        " passions: houseplants, learning karate, coding in javaScript.",
+        " project: Chess 960.",
+        " goal: Learn something new every day.",
+        " event: Hackathon 2020 @ UC Davis.",
+        "ly reading: Clean Code.",
+        " favorite movie: Parasite."
       ],
       txt: "",
       wait: 3000,
@@ -81,7 +81,7 @@ export class Typer extends Component {
             borderRight: this.state.cursorBlink ? "0.2rem solid #777" : ""
           }}
         >
-          {" "}
+          {/* {" "} */}
           {this.state.txt}
         </span>
       </h2>

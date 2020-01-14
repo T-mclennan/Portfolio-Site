@@ -179,36 +179,36 @@ section p {
 section#home {
   background: repeating-linear-gradient(
       0deg,
-      rgba(255, 255, 255, 0.16) 0px,
-      rgba(255, 255, 255, 0.16) 1px,
+      rgba(255, 255, 255, 0.06) 0px,
+      rgba(255, 255, 255, 0.06) 1px,
       transparent 1px,
       transparent 26px
     ),
     repeating-linear-gradient(
       90deg,
-      rgba(255, 255, 255, 0.16) 0px,
-      rgba(255, 255, 255, 0.16) 1px,
+      rgba(255, 255, 255, 0.06) 0px,
+      rgba(255, 255, 255, 0.06) 1px,
       transparent 1px,
       transparent 26px
     ),
     linear-gradient(180deg, #00072d, #00072d);
   align-items: flex-start;
   text-align: left;
-  padding: 12rem 8rem !important;
+  padding: 0rem !important;
 }
 
 section#home2 {
   background: repeating-linear-gradient(
       0deg,
-      rgba(255, 255, 255, 0.16) 0px,
-      rgba(255, 255, 255, 0.16) 1px,
+      rgba(255, 255, 255, 0.09) 0px,
+      rgba(255, 255, 255, 0.09) 1px,
       transparent 1px,
       transparent 26px
     ),
     repeating-linear-gradient(
       90deg,
-      rgba(255, 255, 255, 0.16) 0px,
-      rgba(255, 255, 255, 0.16) 1px,
+      rgba(255, 255, 255, 0.09) 0px,
+      rgba(255, 255, 255, 0.09) 1px,
       transparent 1px,
       transparent 26px
     ),
@@ -216,18 +216,17 @@ section#home2 {
 }
 
 section#chess {
-  /* background-color: cornflowerblue; */
   background: repeating-linear-gradient(
       0deg,
-      rgba(255, 255, 255, 0.16) 0px,
-      rgba(255, 255, 255, 0.16) 1px,
+      rgba(255, 255, 255, 0.14) 0px,
+      rgba(255, 255, 255, 0.14) 1px,
       transparent 1px,
       transparent 26px
     ),
     repeating-linear-gradient(
       90deg,
-      rgba(255, 255, 255, 0.16) 0px,
-      rgba(255, 255, 255, 0.16) 1px,
+      rgba(255, 255, 255, 0.14) 0px,
+      rgba(255, 255, 255, 0.14) 1px,
       transparent 1px,
       transparent 26px
     ),
@@ -308,39 +307,6 @@ section#forms {
     linear-gradient(180deg, rgb(192, 53, 45), rgb(192, 53, 45));
 }
 
-@keyframes move-twink-back {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: -10000px 5000px;
-  }
-}
-@-webkit-keyframes move-twink-back {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: -10000px 5000px;
-  }
-}
-@-moz-keyframes move-twink-back {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: -10000px 5000px;
-  }
-}
-@-ms-keyframes move-twink-back {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: -10000px 5000px;
-  }
-}
-
 .stars {
   /* position: absolute; */
   top: 0;
@@ -356,6 +322,7 @@ section#forms {
   background: url(http://www.script-tutorials.com/demos/360/images/stars.png)
     repeat center;
   z-index: 0;
+  padding: 12rem 8rem !important;
 }
 
 /* color pallete: */

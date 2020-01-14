@@ -6,23 +6,19 @@ class Main extends Component {
   render() {
     return (
       <div className="mainContent">
-        {/* <section id="home">
+        <section id="home">
           <div class="stars">
             {" "}
             <Typer />
           </div>
-          {/* <Typer /> 
-        </section> */}
+        </section>
 
         <section id="home2">
           {/* <h2>
             I enjoy the design and testing of systems. Here are some of my
             recent projects:
           </h2> */}
-          <div class="stars">
-            {" "}
-            <Typer />
-          </div>
+          <div class="stars"> </div>
         </section>
         <section id="chess">
           <h1>Chess 960</h1>
