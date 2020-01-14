@@ -7,14 +7,15 @@ export class Typer extends Component {
 
     this.state = {
       words: [
-        " focus: gain fluency with the MERN stack.",
-        " passions: houseplants, learning karate, coding in javaScript.",
+        " focus: gain fluency with the MERN software stack.",
         " project: Chess 960.",
         " goal: Learn something new every day.",
-        " event: Hackathon 2020 @ UC Davis.",
+        " event: HackDavis 2020 - the annual UC Davis Hackathon.",
+        " passions: houseplants, practicing karate, coding in javaScript.",
         "ly reading: Clean Code.",
         " favorite movie: Parasite."
       ],
+      intro: "",
       txt: "",
       wait: 3000,
       isDeleting: false,
@@ -24,8 +25,8 @@ export class Typer extends Component {
   }
 
   componentDidMount() {
-    this.type();
     this.blink();
+    setTimeout(() => this.introduction(), 1200);
   }
 
   randomTypeSpeed = (min, max) => {
@@ -36,7 +37,6 @@ export class Typer extends Component {
     const { wordIndex, words, isDeleting, txt } = this.state;
     const current = wordIndex % words.length;
     const fullTxt = words[current];
-    console.log(fullTxt);
 
     //Check if Deleting:
     if (!isDeleting) {
@@ -54,16 +54,32 @@ export class Typer extends Component {
 
     // //If word is finished, pause and set deleting to true:
     if (!isDeleting && txt === fullTxt) {
-      console.log("word finished");
       typeSpeed = this.state.wait;
       this.setState({ isDeleting: true });
     } else if (isDeleting && txt === "") {
-      console.log("delete finished");
       this.setState({ isDeleting: false, wordIndex: wordIndex + 1 });
       typeSpeed = 500;
     }
 
     setTimeout(() => this.type(), typeSpeed + this.randomTypeSpeed(0, 75));
+  };
+
+  //Introductary typewriter phrase:
+  introduction = () => {
+    const { intro } = this.state;
+    const fullTxt = "Current";
+    this.setState({ intro: fullTxt.substring(0, intro.length + 1) });
+
+    if (intro === fullTxt) {
+      return this.type();
+    }
+
+    let typeSpeed = 100;
+
+    setTimeout(
+      () => this.introduction(),
+      typeSpeed + this.randomTypeSpeed(0, 75)
+    );
   };
 
   blink = () => {
@@ -75,13 +91,12 @@ export class Typer extends Component {
   render() {
     return (
       <h2 style={typeStyling}>
-        Current
         <span
           style={{
             borderRight: this.state.cursorBlink ? "0.2rem solid #777" : ""
           }}
         >
-          {/* {" "} */}
+          {this.state.intro}
           {this.state.txt}
         </span>
       </h2>
