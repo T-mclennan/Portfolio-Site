@@ -11,9 +11,10 @@ export class Typer extends Component {
         " project: Chess 960.",
         " goal: Learn something new every day.",
         " event: HackDavis 2020 - the annual UC Davis Hackathon.",
-        " passions: houseplants, practicing karate, coding in javaScript.",
-        "ly reading: Clean Code.",
-        " favorite movie: Parasite."
+        " passions: houseplants, biking, coding in javaScript.",
+        "ly reading: Clean Code."
+        // " favorite movie: Parasite.",
+        // "contemplating: premature optimization is the root of all evil"
       ],
       intro: "",
       txt: "",
