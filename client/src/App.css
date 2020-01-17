@@ -249,7 +249,7 @@ section#chess2 {
       transparent 1px,
       transparent 26px
     ),
-    linear-gradient(180deg, hsl(206, 87%, 54%), rgb(44, 175, 169));
+    linear-gradient(180deg, hsl(206, 87%, 54%), #18c2f0);
 }
 
 section#sfsafe {
@@ -267,7 +267,7 @@ section#sfsafe {
       transparent 1px,
       transparent 26px
     ),
-    linear-gradient(180deg, rgb(44, 175, 169), rgb(44, 175, 169));
+    linear-gradient(180deg, #18c2f0, #18c2f0);
 }
 
 section#sfsafe2 {
@@ -286,7 +286,7 @@ section#sfsafe2 {
       transparent 1px,
       transparent 26px
     ),
-    linear-gradient(180deg, rgb(44, 175, 169), rgb(192, 53, 45));
+    linear-gradient(180deg, #18c2f0, rgb(44, 175, 169));
 }
 
 section#forms {
@@ -304,7 +304,7 @@ section#forms {
       transparent 1px,
       transparent 26px
     ),
-    linear-gradient(180deg, rgb(192, 53, 45), rgb(192, 53, 45));
+    linear-gradient(180deg, rgb(44, 175, 169), rgb(44, 175, 169));
 }
 
 .stars {

@@ -7,7 +7,7 @@ export class Typer extends Component {
 
     this.state = {
       words: [
-        "ly under development: this is all placeholder content!",
+        "ly under development: this is placeholder content!",
         " focus: gain fluency with the MERN software stack.",
         " project: Chess 960.",
         " goal: Learn something new every day.",
