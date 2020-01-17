@@ -48,7 +48,7 @@ export class Typer extends Component {
     }
 
     //Initial type Speed:
-    let typeSpeed = 100;
+    let typeSpeed = 80;
 
     if (isDeleting) {
       typeSpeed /= 2;
