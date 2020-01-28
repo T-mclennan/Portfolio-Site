@@ -76,7 +76,7 @@ export class Typer extends Component {
       return this.type();
     }
 
-    let typeSpeed = 100;
+    let typeSpeed = 75;
 
     setTimeout(
       () => this.introduction(),
