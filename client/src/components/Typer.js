@@ -10,12 +10,13 @@ export class Typer extends Component {
         "ly under development: this is placeholder content!",
         " focus: gain fluency with the MERN software stack.",
         " project: Chess 960.",
-        " goal: Learn something new every day.",
+        " resolution: Make small steps towards my goal every day.",
         " event: HackDavis 2020 - the annual UC Davis Hackathon.",
-        " passions: houseplants, biking, coding in javaScript.",
+        " passions: houseplants, karate, biking, gaming, learning to code.",
         "ly reading: Clean Code.",
         " favorite movie: Parasite.",
-        " contemplation: premature optimization is the root of all evil"
+        " netflix show: Outlander.",
+        " favorite quote: premature optimization is the root of all evil"
       ],
       intro: "",
       txt: "",
