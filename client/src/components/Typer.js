@@ -12,8 +12,8 @@ export class Typer extends Component {
         " project: Chess 960.",
         " resolution: Make small steps forward every day.",
         " event: HackDavis 2020 - the annual UC Davis Hackathon.",
-        " passions: houseplants, karate, biking, gaming, learning to code.",
-        'ly reading: "Clean Code." by Robert Cecil Martin',
+        " passions: houseplants, karate, biking, cooking, building things in JavaScript.",
+        'ly reading: "Clean Code" by Robert Cecil Martin.',
         " movie to discuss: Parasite.",
         " netflix show: Outlander.",
         ' quote to ponder: "Premature optimization is the root of all evil."'

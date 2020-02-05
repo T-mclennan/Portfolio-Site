@@ -14,23 +14,23 @@ class Main extends Component {
         </section>
 
         <section id="home2">
-          {/* <h2>
-            I enjoy the design and testing of systems. Here are some of my
-            recent projects:
-          </h2> */}
           <div class="stars"> </div>
         </section>
         <section id="chess">
-          <h1>Chess 960</h1>
-          <hr />
-          <span>
-            <a href={"https://tmclennan-form-assignment.herokuapp.com/"}>
+          <a href={"https://chess-960.herokuapp.com/"}>
+            <h1>Chess 960</h1>
+          </a>
+          <div className="subHeader">
+            <a href={"https://github.com/T-mclennan/Chess-960"}>
               <h3>Github</h3>
             </a>
-            <a href={"https://tmclennan-form-assignment.herokuapp.com/"}>
+            <a>
+              <h3>|</h3>
+            </a>
+            <a href={"https://chess-960.herokuapp.com/"}>
               <h3>Deployment</h3>
             </a>
-          </span>
+          </div>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
             error quaerat dolore alias libero temporibus dolorum maiores
@@ -47,7 +47,24 @@ class Main extends Component {
           </p>
         </section>
         <section id="sfsafe">
-          <h1>SFsafe</h1>
+          <a href={"http://safesf.ddns.net:3000/"}>
+            <h1>Safe SF</h1>
+          </a>
+          <div className="subHeader">
+            <a
+              href={
+                "https://github.com/T-mclennan/Summer-Project-2019/tree/master/application"
+              }
+            >
+              <h3>Github</h3>
+            </a>
+            <a>
+              <h3>|</h3>
+            </a>
+            <a href={"http://safesf.ddns.net:3000/"}>
+              <h3>Deployment</h3>
+            </a>
+          </div>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
             error quaerat dolore alias libero temporibus dolorum maiores
