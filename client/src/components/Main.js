@@ -22,6 +22,15 @@ class Main extends Component {
         </section>
         <section id="chess">
           <h1>Chess 960</h1>
+          <hr />
+          <span>
+            <a href={"https://tmclennan-form-assignment.herokuapp.com/"}>
+              <h3>Github</h3>
+            </a>
+            <a href={"https://tmclennan-form-assignment.herokuapp.com/"}>
+              <h3>Deployment</h3>
+            </a>
+          </span>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
             error quaerat dolore alias libero temporibus dolorum maiores
@@ -67,7 +76,7 @@ class Main extends Component {
           </p>
         </section>
 
-        <section id="forms">
+        <section id="forms2">
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
             error quaerat dolore alias libero temporibus dolorum maiores

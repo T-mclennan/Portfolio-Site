@@ -124,6 +124,19 @@ body {
   flex: 3;
 }
 
+.subHeader {
+  display: flex;
+  /* text-align: center; */
+  flex-direction: row;
+  /* align-items: flex-start; */
+  justify-content: space-around;
+  color: #a6e1fa;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  /* padding: 0 1.5rem; */
+}
+
 .mainContent {
   /* display: flex; */
   height: 100%;
@@ -249,7 +262,7 @@ section#chess2 {
       transparent 1px,
       transparent 26px
     ),
-    linear-gradient(180deg, hsl(206, 87%, 54%), #18c2f0);
+    linear-gradient(180deg, hsl(206, 87%, 54%), hsl(206, 87%, 54%));
 }
 
 section#sfsafe {
@@ -267,7 +280,7 @@ section#sfsafe {
       transparent 1px,
       transparent 26px
     ),
-    linear-gradient(180deg, #18c2f0, #18c2f0);
+    linear-gradient(180deg, hsl(206, 87%, 54%), hsl(206, 87%, 54%));
 }
 
 section#sfsafe2 {
@@ -286,7 +299,7 @@ section#sfsafe2 {
       transparent 1px,
       transparent 26px
     ),
-    linear-gradient(180deg, #18c2f0, rgb(44, 175, 169));
+    linear-gradient(180deg, hsl(206, 87%, 54%), hsl(195, 73%, 36%));
 }
 
 section#forms {
@@ -304,7 +317,25 @@ section#forms {
       transparent 1px,
       transparent 26px
     ),
-    linear-gradient(180deg, rgb(44, 175, 169), rgb(44, 175, 169));
+    linear-gradient(180deg, hsl(195, 73%, 36%), hsl(195, 73%, 36%));
+}
+
+section#forms2 {
+  background: repeating-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.16) 0px,
+      rgba(255, 255, 255, 0.16) 1px,
+      transparent 1px,
+      transparent 26px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.16) 0px,
+      rgba(255, 255, 255, 0.16) 1px,
+      transparent 1px,
+      transparent 26px
+    ),
+    linear-gradient(180deg, hsl(195, 73%, 36%), hsl(195, 73%, 36%));
 }
 
 .stars {

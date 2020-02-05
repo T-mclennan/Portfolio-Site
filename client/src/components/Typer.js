@@ -7,20 +7,20 @@ export class Typer extends Component {
 
     this.state = {
       words: [
-        "ly under development: this is placeholder content!",
+        "ly under development. Updates coming soon!",
         " focus: gain fluency with the MERN software stack.",
         " project: Chess 960.",
-        " resolution: Make small steps towards my goal every day.",
+        " resolution: Make small steps forward every day.",
         " event: HackDavis 2020 - the annual UC Davis Hackathon.",
         " passions: houseplants, karate, biking, gaming, learning to code.",
-        "ly reading: Clean Code.",
-        " favorite movie: Parasite.",
+        'ly reading: "Clean Code." by Robert Cecil Martin',
+        " movie to discuss: Parasite.",
         " netflix show: Outlander.",
-        " favorite quote: premature optimization is the root of all evil"
+        ' quote to ponder: "Premature optimization is the root of all evil."'
       ],
       intro: "",
       txt: "",
-      wait: 3000,
+      wait: 1800,
       isDeleting: false,
       wordIndex: 0,
       cursorBlink: true
@@ -81,7 +81,7 @@ export class Typer extends Component {
 
     setTimeout(
       () => this.introduction(),
-      typeSpeed + this.randomTypeSpeed(0, 75)
+      typeSpeed + this.randomTypeSpeed(0, 35)
     );
   };
 
