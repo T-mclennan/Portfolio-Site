@@ -14,7 +14,7 @@ export class Typer extends Component {
         " event: HackDavis 2020 - the annual UC Davis Hackathon.",
         " passions: houseplants, karate, biking, cooking, building things in JavaScript.",
         'ly reading: "Clean Code" by Robert Cecil Martin.',
-        " movie to discuss: Pbbbbffffttt.",
+        " movie to discuss: Jojo Rabbit.",
         " netflix show: Outlander.",
         ' quote to ponder: "Premature optimization is the root of all evil."'
       ],
