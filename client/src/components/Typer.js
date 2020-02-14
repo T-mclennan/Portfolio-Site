@@ -14,7 +14,7 @@ export class Typer extends Component {
         " event: HackDavis 2020 - the annual UC Davis Hackathon.",
         " passions: houseplants, karate, biking, cooking, building things in JavaScript.",
         'ly reading: "Clean Code" by Robert Cecil Martin.',
-        " movie to discuss: Parasite.",
+        " movie to discuss: Pbbbbffffttt.",
         " netflix show: Outlander.",
         ' quote to ponder: "Premature optimization is the root of all evil."'
       ],
@@ -108,8 +108,10 @@ export class Typer extends Component {
 }
 
 const typeStyling = {
-  fontFamily: "Raleway, sans-serif",
-  fontSize: "3.5rem"
+  // fontFamily: "Raleway, sans-serif",
+  // fontFamily: "Courgette, cursive",
+  fontFamily: "Spectral, serif",
+  fontSize: "3.8rem"
 };
 
 export default Typer;
