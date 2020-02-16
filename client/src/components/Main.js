@@ -19,23 +19,31 @@ class Main extends Component {
         </section>
 
         <section id="chess">
-          <div className="header">
-            <a href={"https://chess-960.herokuapp.com/"} target="_blank">
-              {/* <h1>Chess 960</h1> */} Chess 960
-            </a>
-            <div className="subHeader">
-              <a
-                href={"https://github.com/T-mclennan/Chess-960"}
-                target="_blank"
-              >
-                <h3>Github</h3>
-              </a>
-              <a>
-                <h3>|</h3>
-              </a>
-              <a href={"https://chess-960.herokuapp.com/"} target="_blank">
-                <h3>Deployment</h3>
-              </a>
+          <div className="chess-header header">
+            <div className="screen">
+              <div className="screen2">
+                <a
+                  href={"https://chess-960.herokuapp.com/"}
+                  style={{ color: "white" }}
+                  target="_blank"
+                >
+                  {/* <h1>Chess 960</h1> */} Chess 960
+                </a>
+                <div className="subHeader">
+                  <a
+                    href={"https://github.com/T-mclennan/Chess-960"}
+                    target="_blank"
+                  >
+                    <h3>Github</h3>
+                  </a>
+                  <a>
+                    <h3>|</h3>
+                  </a>
+                  <a href={"https://chess-960.herokuapp.com/"} target="_blank">
+                    <h3>Deployment</h3>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
           {/* <hr /> */}

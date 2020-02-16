@@ -189,11 +189,40 @@ section {
 }
 
 section .header {
-  font-size: 5rem;
+  height: 100%;
+  width: 100%;
+  font-size: 6rem;
   font-family: "Spectral, serif";
 }
 
-section p {
+/* section .screen {
+  height: 77%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.4;
+  padding: 6rem 0;
+} */
+
+/* section .screen2 {
+  height: 77%;
+  width: 100%;
+  background-color: black;
+  opacity: 100;
+} */
+
+section .screen a h3 {
+  color: white;
+}
+
+section .chess-header {
+  background-image: url("./assets/Lobby.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 70%;
+  /* background-position: 50%; */
+}
+
+section .header section p {
   font-size: 1.2rem;
 }
 section a {
