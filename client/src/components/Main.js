@@ -27,7 +27,7 @@ class Main extends Component {
                   style={{ color: "white" }}
                   target="_blank"
                 >
-                  {/* <h1>Chess 960</h1> */} Chess 960
+                  Chess 960
                 </a>
                 <div className="subHeader">
                   <a

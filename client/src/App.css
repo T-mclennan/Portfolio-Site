@@ -195,13 +195,15 @@ section .header {
   font-family: "Spectral, serif";
 }
 
-/* section .screen {
+section .screen {
   height: 77%;
   width: 100%;
   background-color: black;
-  opacity: 0.4;
+  opacity: 0.8;
   padding: 6rem 0;
-} */
+  border: ivory;
+  border-width: 1px;
+}
 
 /* section .screen2 {
   height: 77%;
@@ -218,7 +220,7 @@ section .chess-header {
   background-image: url("./assets/Lobby.png");
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: 70%;
+  /* opacity: 90%; */
   /* background-position: 50%; */
 }
 
