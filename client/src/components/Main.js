@@ -1,52 +1,48 @@
-import React, { Component } from "react";
-import Typer from "./Typer";
-import { Container } from "reactstrap";
-import "../App.css";
+import React, { Component } from 'react';
+import Typer from './Typer';
+import '../App.css';
 
 class Main extends Component {
   render() {
     return (
-      <div className="mainContent">
-        <section id="home">
-          <div class="stars">
-            {" "}
+      <div className='mainContent'>
+        <section id='home'>
+          <div class='stars'>
+            {' '}
             <Typer />
           </div>
         </section>
 
-        <section id="home2">
-          <div class="stars"> </div>
+        <section id='home2'>
+          <div class='stars'> </div>
         </section>
 
-        <section id="chess">
-          <div className="chess-header header">
-            <div className="screen">
-              <div className="screen2">
+        <section id='chess'>
+          <div
+            className='chess-header header'
+            style={{ border: '1px solid rgb(185, 184, 184)' }}
+          >
+            <div className='header-content'>
+              <a href={'https://chess-960.herokuapp.com/'} target='_blank'>
+                Chess 960
+              </a>
+              <div className='subHeader'>
                 <a
-                  href={"https://chess-960.herokuapp.com/"}
-                  style={{ color: "white" }}
-                  target="_blank"
+                  href={'https://github.com/T-mclennan/Chess-960'}
+                  target='_blank'
                 >
-                  Chess 960
+                  <h3>Github</h3>
                 </a>
-                <div className="subHeader">
-                  <a
-                    href={"https://github.com/T-mclennan/Chess-960"}
-                    target="_blank"
-                  >
-                    <h3>Github</h3>
-                  </a>
-                  <a>
-                    <h3>|</h3>
-                  </a>
-                  <a href={"https://chess-960.herokuapp.com/"} target="_blank">
-                    <h3>Deployment</h3>
-                  </a>
-                </div>
+                <a>
+                  <h3>|</h3>
+                </a>
+                <a href={'https://chess-960.herokuapp.com/'} target='_blank'>
+                  <h3>Deployment</h3>
+                </a>
               </div>
             </div>
           </div>
-          {/* <hr /> */}
+
           {/* <div className="section-content">
             <p>
               This style of chess integrates an element of randomness into the
@@ -73,38 +69,42 @@ class Main extends Component {
           </div> */}
         </section>
 
-        <section id="chess2">
+        <section id='chess2'>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
-            error quaerat dolore alias libero temporibus dolorum maiores
-            officiis sunt dignissimos nulla molestias, unde in atque consectetur
-            architecto ullam et sit.
+            This style of chess integrates an element of randomness into the
+            classic game, while still providing balance in the start positions.
+            There are a total of 960 unique opening positions possible.
           </p>
         </section>
 
-        <section id="sfsafe">
-          <div className="header">
-            <a href={"http://safesf.ddns.net/"} target="_blank">
-              {/* <h1>Safe SF</h1> */}
-              Safe SF
-            </a>
-            <div className="subHeader">
-              <a
-                href={
-                  "https://github.com/T-mclennan/Summer-Project-2019/tree/master/application"
-                }
-                target="_blank"
-              >
-                <h2>Github</h2>
+        <section id='sfsafe'>
+          <div
+            className='safesf-header header'
+            style={{ border: '1px solid rgb(185, 184, 184)' }}
+          >
+            <div className='header-content'>
+              <a href={'http://safesf.ddns.net/'} target='_blank'>
+                Safe SF
               </a>
-              <a>
-                <h3>|</h3>
-              </a>
-              <a href={"http://safesf.ddns.net/"} target="_blank">
-                <h2>Deployment</h2>
-              </a>
+              <div className='subHeader'>
+                <a
+                  href={
+                    'https://github.com/T-mclennan/Summer-Project-2019/tree/master/application'
+                  }
+                  target='_blank'
+                >
+                  <h2>Github</h2>
+                </a>
+                <a>
+                  <h3>|</h3>
+                </a>
+                <a href={'http://safesf.ddns.net/'} target='_blank'>
+                  <h2>Deployment</h2>
+                </a>
+              </div>
             </div>
           </div>
+
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
             error quaerat dolore alias libero temporibus dolorum maiores
@@ -113,7 +113,7 @@ class Main extends Component {
           </p>
         </section>
 
-        <section id="sfsafe2">
+        <section id='sfsafe2'>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
             error quaerat dolore alias libero temporibus dolorum maiores
@@ -122,15 +122,36 @@ class Main extends Component {
           </p>
         </section>
 
-        <section id="forms">
-          <div className="header">
-            <a
-              href={"https://tmclennan-form-assignment.herokuapp.com/"}
-              target="_blank"
-            >
-              {/* <h1>Form Practice</h1> */}
-              Form Project
-            </a>
+        <section id='forms'>
+          <div
+            className='forms-header header'
+            style={{ border: '1px solid rgb(185, 184, 184)' }}
+          >
+            <div className='header-content'>
+              <a
+                href={'https://tmclennan-form-assignment.herokuapp.com/'}
+                target='_blank'
+              >
+                Form Project
+              </a>
+              <div className='subHeader'>
+                <a
+                  href={'https://github.com/T-mclennan/Forms-Practice'}
+                  target='_blank'
+                >
+                  <h3>Github</h3>
+                </a>
+                <a>
+                  <h3>|</h3>
+                </a>
+                <a
+                  href={'https://tmclennan-form-assignment.herokuapp.com/'}
+                  target='_blank'
+                >
+                  <h3>Deployment</h3>
+                </a>
+              </div>
+            </div>
           </div>
 
           <p>

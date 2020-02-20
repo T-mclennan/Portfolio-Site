@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Amiri:700|Cedarville+Cursive|Merienda|News+Cycle:700|Spectral:500|Taviraj|Teko:500&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amiri:700|Cedarville+Cursive|Merienda|News+Cycle:700|Spectral:500|Taviraj|Teko:500&display=swap');
 
 * {
   margin: 0;
@@ -131,28 +131,20 @@ a {
 
 .subHeader {
   display: flex;
-  /* text-align: center; */
   flex-direction: row;
-  /* align-items: flex-start; */
   justify-content: center;
   color: #a6e1fa;
-  /* height: 100%;
-  width: 100%; */
   margin: auto;
-  /* padding: 0 1.5rem; */
 }
 
 .mainContent {
-  /* display: flex; */
   height: 100%;
   margin-left: 14.2rem;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   flex: 4;
-  /* border: 1px solid #585858; */
   color: white;
-  /* background-color: #0a2472; */
   background: repeating-linear-gradient(
       0deg,
       rgba(255, 255, 255, 0.16) 0px,
@@ -190,38 +182,57 @@ section {
 
 section .header {
   height: 100%;
-  width: 100%;
   font-size: 6rem;
-  font-family: "Spectral, serif";
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-style: normal;
+  height: fit-content;
 }
 
-section .screen {
-  height: 77%;
-  width: 100%;
-  background-color: black;
-  opacity: 0.8;
-  padding: 6rem 0;
-  border: ivory;
-  border-width: 1px;
+section .header-content {
+  padding: 5rem;
+  height: 23.3rem;
 }
-
-/* section .screen2 {
-  height: 77%;
-  width: 100%;
-  background-color: black;
-  opacity: 100;
-} */
 
 section .screen a h3 {
   color: white;
 }
 
 section .chess-header {
-  background-image: url("./assets/Lobby.png");
+  background-image: linear-gradient(
+      /* rgba(85, 79, 109, 0.8),  */ rgba(37, 21, 54, 0.7),
+      rgba(24, 45, 80, 0.7) /* rgba(60, 70, 60, 0.8) */
+    ),
+    url('./assets/Lobby.png');
   background-size: contain;
   background-repeat: no-repeat;
-  /* opacity: 90%; */
-  /* background-position: 50%; */
+  border-radius: 2rem;
+  box-shadow: 3px 3px 18px rgb(54, 41, 54, 0.7);
+}
+
+section .safesf-header {
+  height: 23.7rem;
+  background-image: linear-gradient(
+      /* rgba(85, 79, 109, 0.8),  */ hsl(219, 97%, 17%, 0.8),
+      rgba(19, 67, 104, 0.8) /* rgba(60, 70, 60, 0.8) */
+    ),
+    url('./assets/SafeSF.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 2rem;
+  box-shadow: 3px 3px 18px rgb(54, 41, 54, 0.7);
+}
+
+section .forms-header {
+  height: 24rem;
+  background-image: linear-gradient(
+      /* rgba(85, 79, 109, 0.8),  */ rgba(126, 86, 13, 0.8),
+      rgba(133, 46, 133, 0.7) /* rgba(60, 70, 60, 0.8) */
+    ),
+    url('./assets/Forms.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 2rem;
+  box-shadow: 3px 3px 18px rgb(54, 41, 54, 0.7);
 }
 
 section .header section p {
@@ -233,15 +244,24 @@ section a {
   font-size: 4.5rem;
 }
 
-section a:hover {
+section .chess-header a:hover {
+  margin: 0 0.5rem;
+  /* color: #5fc3ee; */
+  color: rgb(245, 111, 133);
+  text-decoration: none;
+}
+
+section .safesf-header a:hover {
   margin: 0 0.5rem;
   color: rgb(245, 147, 111);
   text-decoration: none;
 }
 
-/* section .section-content {
-  margin-top: 30rem;
-} */
+section .forms-header a:hover {
+  margin: 0 0.5rem;
+  color: rgb(245, 147, 111);
+  text-decoration: none;
+}
 
 section#home {
   background: repeating-linear-gradient(
