@@ -20,7 +20,7 @@ export class Typer extends Component {
       // ],
 
       words: [
-        '"Testing can show the presence of errors, but not the absence." - Edsger W. Dijkstra',
+        '"Testing can show the presence of errors, but not the absence." - Edger W. Dijkstra',
         '“Don’t comment bad code, rewrite it.”   - Brian W. Kernighan',
         '"Perfection is achieved not when there is nothing left to add, but when there is nothing left to take away.. "   - Antoine de St. Exupery',
         '"Premature optimization is the root of all evil in programming."   - Donald Knuth',
