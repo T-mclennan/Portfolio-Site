@@ -199,40 +199,44 @@ section .screen a h3 {
 
 section .chess-header {
   background-image: linear-gradient(
-      /* rgba(85, 79, 109, 0.8),  */ rgba(37, 21, 54, 0.7),
-      rgba(24, 45, 80, 0.7) /* rgba(60, 70, 60, 0.8) */
+      /* rgba(85, 79, 109, 0.8),  */ rgba(24, 45, 80, 0.85),
+      rgba(24, 45, 80, 0.85) /* rgba(60, 70, 60, 0.8) */
     ),
     url('./assets/Lobby.png');
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 2rem;
   box-shadow: 3px 3px 18px rgb(54, 41, 54, 0.7);
+  border: 1px solid rgb(116, 193, 238);
 }
 
 section .safesf-header {
   height: 23.7rem;
   background-image: linear-gradient(
-      /* rgba(85, 79, 109, 0.8),  */ hsl(219, 97%, 17%, 0.8),
-      rgba(19, 67, 104, 0.8) /* rgba(60, 70, 60, 0.8) */
+      rgba(39, 119, 180, 0.85),
+      rgba(39, 95, 180, 0.85)
     ),
     url('./assets/SafeSF.png');
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 2rem;
   box-shadow: 3px 3px 18px rgb(54, 41, 54, 0.7);
+  /* border: 1px solid rgb(116, 193, 238); */
+  border: 1px solid rgb(225, 219, 250);
 }
 
 section .forms-header {
   height: 24rem;
   background-image: linear-gradient(
-      /* rgba(85, 79, 109, 0.8),  */ rgba(126, 86, 13, 0.8),
-      rgba(133, 46, 133, 0.7) /* rgba(60, 70, 60, 0.8) */
+      /* rgba(85, 79, 109, 0.8),  */ rgba(29, 72, 151, 0.8),
+      rgba(23, 49, 136, 0.8) /* rgba(60, 70, 60, 0.8) */
     ),
     url('./assets/Forms.png');
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 2rem;
   box-shadow: 3px 3px 18px rgb(54, 41, 54, 0.7);
+  border: 1px solid rgb(250, 233, 219);
 }
 
 section .header section p {
@@ -242,25 +246,29 @@ section a {
   margin: 0px 0.5rem !important;
   color: white;
   font-size: 4.5rem;
+  -webkit-text-stroke: 1px #696969;
 }
 
 section .chess-header a:hover {
   margin: 0 0.5rem;
   /* color: #5fc3ee; */
-  color: rgb(245, 111, 133);
+  color: hsl(206, 87%, 54%);
   text-decoration: none;
+  -webkit-text-stroke: 0px;
 }
 
 section .safesf-header a:hover {
   margin: 0 0.5rem;
-  color: rgb(245, 147, 111);
+  color: rgb(245, 111, 133);
   text-decoration: none;
+  -webkit-text-stroke: 0px;
 }
 
 section .forms-header a:hover {
   margin: 0 0.5rem;
-  color: rgb(245, 147, 111);
+  color: rgb(207, 109, 74);
   text-decoration: none;
+  -webkit-text-stroke: 0px;
 }
 
 section#home {

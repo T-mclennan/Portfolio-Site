@@ -18,10 +18,7 @@ class Main extends Component {
         </section>
 
         <section id='chess'>
-          <div
-            className='chess-header header'
-            style={{ border: '1px solid rgb(185, 184, 184)' }}
-          >
+          <div className='chess-header header'>
             <div className='header-content'>
               <a href={'https://chess-960.herokuapp.com/'} target='_blank'>
                 Chess 960
@@ -78,10 +75,7 @@ class Main extends Component {
         </section>
 
         <section id='sfsafe'>
-          <div
-            className='safesf-header header'
-            style={{ border: '1px solid rgb(185, 184, 184)' }}
-          >
+          <div className='safesf-header header'>
             <div className='header-content'>
               <a href={'http://safesf.ddns.net/'} target='_blank'>
                 Safe SF
@@ -104,13 +98,6 @@ class Main extends Component {
               </div>
             </div>
           </div>
-
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
-            error quaerat dolore alias libero temporibus dolorum maiores
-            officiis sunt dignissimos nulla molestias, unde in atque consectetur
-            architecto ullam et sit.
-          </p>
         </section>
 
         <section id='sfsafe2'>
@@ -123,10 +110,7 @@ class Main extends Component {
         </section>
 
         <section id='forms'>
-          <div
-            className='forms-header header'
-            style={{ border: '1px solid rgb(185, 184, 184)' }}
-          >
+          <div className='forms-header header'>
             <div className='header-content'>
               <a
                 href={'https://tmclennan-form-assignment.herokuapp.com/'}
@@ -154,6 +138,7 @@ class Main extends Component {
             </div>
           </div>
 
+          <br />
           <p>
             Forms practice aims to develop professionalism around the use of
             forms. - Node and Express for the server - EJS was used to template
