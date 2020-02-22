@@ -61,6 +61,7 @@ class Main extends Component {
                 <li>JWT for Authentication.</li>
                 <li>MongoDB Atlas for storage.</li>
                 <li>Socket.io for real time data transfer.</li>
+                <li>Deployed on Heroku</li>
               </ul>
             </h5>
             <hr />
@@ -74,7 +75,7 @@ class Main extends Component {
                   either 960 or regular.
                 </li>
                 <li>
-                  Players can see and re-join past games from the dashboard.
+                  Players can see and rejoin past games from the dashboard.
                 </li>
                 <li>
                   Quickgame action joins an open game, if none are available it
@@ -104,9 +105,7 @@ class Main extends Component {
                 >
                   <h2>Github</h2>
                 </a>
-                <a>
-                  <h3>|</h3>
-                </a>
+                <h3>|</h3>
                 <a href={'http://safesf.ddns.net/'} target='_blank'>
                   <h2>Deployment</h2>
                 </a>
@@ -117,10 +116,9 @@ class Main extends Component {
             <h2>Description:</h2>
             <hr />
             <h5>
-              Real-time chess application with randomized start positions. A
-              board generation algorithm ensures that there is a relative
-              balance between players, and given these constraints there are 960
-              possible start positions.
+              Environmental web application where San Francisco residents can
+              report and view environmental hazards to the city. This was a
+              project from a software engineering class from the summer of 2019.
             </h5>
           </div>
         </section>
@@ -132,10 +130,11 @@ class Main extends Component {
             <h5>
               <ul>
                 <li>Node.js with Express for backend</li>
-                <li>React, Redux, Reactstrap, CSS</li>
+                <li>Javascript, CSS, Bootstrap</li>
                 <li>JWT for Authentication</li>
-                <li>MongoDB Atlas for storage</li>
-                <li>Socket.io for real time data transfer</li>
+                <li>MySQL for storage</li>
+                <li>Google Map and Geolocation APIs</li>
+                <li>Deployed on AWS</li>
               </ul>
             </h5>
             <hr />
@@ -143,18 +142,22 @@ class Main extends Component {
             <hr />
             <h5>
               <ul>
-                <li>GUI for Lobby, Game creation, and Game logic</li>
                 <li>
-                  Players can create a new game with specified options, either
-                  960 style or regular.
+                  Search and view the details of hazards that have been reported
+                  around the city.
                 </li>
-                <li>Players can see and rejoin past games from dashboard</li>
                 <li>
-                  Quickgame action joins an open game, if none are available it
-                  will create one.
+                  Filter results on the map based on category, location, and
+                  description.
                 </li>
-                <li>Find game action offers a list of open games to join</li>
-                <li>View of online players in lobby real time</li>
+                <li>
+                  Authenticated users can submit a hazard report, including a
+                  description, picture, and location pin.
+                </li>
+                <li>
+                  Special Access token given to admins, allow them to see
+                  pending hazards, and assign or deny them.
+                </li>
               </ul>
             </h5>
           </div>
@@ -176,9 +179,7 @@ class Main extends Component {
                 >
                   <h3>Github</h3>
                 </a>
-                <a>
-                  <h3>|</h3>
-                </a>
+                <h3>|</h3>
                 <a
                   href={'https://tmclennan-form-assignment.herokuapp.com/'}
                   target='_blank'
@@ -200,10 +201,10 @@ class Main extends Component {
             <h2>Description:</h2>
             <hr />
             <h5>
-              Real-time chess application with randomized start positions. A
-              board generation algorithm ensures that there is a relative
-              balance between players, and given these constraints there are 960
-              possible start positions.
+              Input form with high design quality, error handling, field
+              validation, robustness to attacks, cross browser and platform
+              compatibility and usability. Created as an assignment in UI/UX
+              class for Summer 2019.
             </h5>
           </div>
         </section>
@@ -215,10 +216,9 @@ class Main extends Component {
             <h5>
               <ul>
                 <li>Node.js with Express for backend</li>
-                <li>React, Redux, Reactstrap, CSS</li>
-                <li>JWT for Authentication</li>
-                <li>MongoDB Atlas for storage</li>
-                <li>Socket.io for real time data transfer</li>
+                <li>HTML, EJS, CSS, Bootstrap</li>
+                <li>Google Maps, Geolocation, reCaptcha v2 APIs </li>
+                <li>Deployed on Heroku</li>
               </ul>
             </h5>
             <hr />
@@ -226,18 +226,16 @@ class Main extends Component {
             <hr />
             <h5>
               <ul>
-                <li>GUI for Lobby, Game creation, and Game logic</li>
+                <li>Clear and concise Input Form</li>
+                <li>Custom Regex patterns for client side validation</li>
                 <li>
-                  Players can create a new game with specified options, either
-                  960 style or regular.
+                  HTML template EJS is used to generate a results page to
+                  display information back to user.
                 </li>
-                <li>Players can see and rejoin past games from dashboard</li>
                 <li>
-                  Quickgame action joins an open game, if none are available it
-                  will create one.
+                  Geolocation and Map API show the location of the provided
+                  address.
                 </li>
-                <li>Find game action offers a list of open games to join</li>
-                <li>View of online players in lobby real time</li>
               </ul>
             </h5>
           </div>

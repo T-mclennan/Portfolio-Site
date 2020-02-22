@@ -202,14 +202,14 @@ section .description-bottom {
 }
 
 section .chess-top {
-  background-image: linear-gradient(rgb(23, 45, 77), rgb(23, 45, 77));
+  background-image: linear-gradient(rgba(23, 45, 77, 1), rgba(23, 45, 77, 1));
   border-left-color: rgb(116, 193, 238);
   border-right-color: rgb(116, 193, 238);
   border-top-color: rgb(73, 136, 172);
 }
 
 section .chess-bottom {
-  background-image: linear-gradient(rgb(23, 45, 77), rgb(23, 45, 77));
+  background-image: linear-gradient(rgba(23, 45, 77, 1), rgba(23, 45, 77, 0.7));
   border: 1px solid rgb(116, 193, 238);
   border-top-color: rgb(73, 136, 172);
 }
@@ -222,7 +222,10 @@ section .sfsafe-top {
 }
 
 section .sfsafe-bottom {
-  background-image: linear-gradient(rgb(52, 81, 126), rgb(52, 81, 126));
+  background-image: linear-gradient(
+    rgba(52, 81, 126, 1),
+    rgba(52, 81, 126, 0.7)
+  );
   border: 1px solid rgb(225, 219, 250);
   border-top-color: rgb(225, 219, 250);
 }
