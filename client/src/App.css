@@ -154,7 +154,7 @@ a {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   scroll-behavior: smooth;
-  /* scroll-snap-align: top; */
+  scroll-snap-align: top;
 }
 
 .project-details {
