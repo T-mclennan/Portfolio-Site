@@ -269,6 +269,7 @@ section .chess-header {
   box-shadow: 3px 3px 18px rgb(54, 41, 54, 0.7);
   border: solid rgb(116, 193, 238);
   border-width: 1px 1px 0px 1px;
+  width: 100%;
 }
 
 section .safesf-header {
