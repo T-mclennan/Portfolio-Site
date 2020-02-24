@@ -253,6 +253,7 @@ section .header {
 section .header-content {
   padding: 5rem;
   height: 23.3rem;
+  width: auto;
 }
 
 section .chess-header {
