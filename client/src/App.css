@@ -131,7 +131,7 @@ a {
   height: 100%;
   margin-left: 14.2rem;
   flex-direction: column;
-  justify-content: flex-start !important;
+  justify-content: flex-start;
   align-items: center;
   flex: 4;
   color: white;
@@ -154,7 +154,7 @@ a {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   scroll-behavior: smooth;
-  scroll-snap-align: start;
+  /* scroll-snap-align: start; */
 }
 
 .project-details {
@@ -185,7 +185,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   text-align: center;
   height: 100vh;
   width: 100%;
