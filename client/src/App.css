@@ -314,21 +314,21 @@ section a {
 section .chess-header a:hover {
   margin: 0 0.5rem;
   /* color: #5fc3ee; */
-  color: hsl(206, 87%, 54%);
+  color: rgb(116, 193, 238);
   text-decoration: none;
   -webkit-text-stroke: 0px;
 }
 
 section .safesf-header a:hover {
   margin: 0 0.5rem;
-  color: rgb(245, 111, 133);
+  color: rgb(116, 193, 238);
   text-decoration: none;
   -webkit-text-stroke: 0px;
 }
 
 section .forms-header a:hover {
   margin: 0 0.5rem;
-  color: rgb(207, 109, 74);
+  color: rgb(226, 144, 81);
   text-decoration: none;
   -webkit-text-stroke: 0px;
 }

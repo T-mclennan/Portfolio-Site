@@ -6,32 +6,19 @@ export class Typer extends Component {
     super(props);
 
     this.state = {
-      // words: [
-      //   "ly under development. Updates coming soon!",
-      //   " focus: gain fluency with the MERN software stack.",
-      //   " project: Chess 960.",
-      //   " resolution: Make small steps forward every day.",
-      //   " event: HackDavis 2020 - the annual UC Davis Hackathon.",
-      //   " passions: houseplants, karate, biking, cooking, building things in JavaScript.",
-      //   'ly reading: "Clean Code" by Robert Cecil Martin.',
-      //   " movie to discuss: Jojo Rabbit.",
-      //   " netflix show: Outlander.",
-      //   ' quote to ponder: "Premature optimization is the root of all evil."'
-      // ],
-
       words: [
+        '"Science is what we understand well enough to explain to a computer. Art is everything else we do."   - Donald Knuth',
         '"Testing can show the presence of errors, but not the absence." - Edger W. Dijkstra',
         '“Don’t comment bad code, rewrite it.”   - Brian W. Kernighan',
+        '"Avoid making premature abstractions." - Dan Abramov',
         '"Perfection is achieved not when there is nothing left to add, but when there is nothing left to take away.. "   - Antoine de St. Exupery',
         '"Premature optimization is the root of all evil in programming."   - Donald Knuth',
-        '"Without requirements or design, programming is the art of adding bugs to an empty text file.”   - Louis Srygley',
         '"Refactor early, refactor often."   - David Thomas',
-        '"Science is what we understand well enough to explain to a computer. Art is everything else we do."   - Donald Knuth',
+        '"Without requirements or design, programming is the art of adding bugs to an empty text file.”   - Louis Srygley',
         '"The ratio of time spent reading code versus writing is well over 10 to 1 ... therefore making it easy to read makes it easier to write."   - Robert C Martin',
         '"Instead of imagining that our main task is to instruct a computer what to do, let us concentrate rather on explaining to human beings what we want a computer to do."   - Donald Knuth',
         '"Make it correct, make it clear, make it concise, make it fast. In that order."   – Wes Dyer',
       ],
-      // intro: '',
       txt: '',
       wait: 1800,
       isDeleting: false,
@@ -41,8 +28,14 @@ export class Typer extends Component {
   }
 
   componentDidMount() {
+    const { words } = this.state;
     this.blink();
     setTimeout(() => this.type(), 1200);
+
+    //Generate a random quote index to start with:
+    this.setState({
+      wordIndex: Math.floor(Math.random() * Math.floor(words.length - 1)),
+    });
   }
 
   randomTypeSpeed = (min, max) => {
@@ -65,7 +58,7 @@ export class Typer extends Component {
     let typeSpeed = 50;
 
     if (isDeleting) {
-      typeSpeed /= 2;
+      typeSpeed /= 3;
     }
 
     // //If word is finished, pause and set deleting to true:
@@ -83,24 +76,6 @@ export class Typer extends Component {
     );
   };
 
-  //Introductary typewriter phrase:
-  introduction = () => {
-    const { intro } = this.state;
-    const fullTxt = 'Current';
-    this.setState({ intro: fullTxt.substring(0, intro.length + 1) });
-
-    if (intro === fullTxt) {
-      return this.type();
-    }
-
-    let typeSpeed = 65;
-
-    setTimeout(
-      () => this.introduction(),
-      typeSpeed + this.randomTypeSpeed(0, 10)
-    );
-  };
-
   blink = () => {
     this.setState({ cursorBlink: !this.state.cursorBlink });
 
@@ -115,7 +90,6 @@ export class Typer extends Component {
             borderRight: this.state.cursorBlink ? '0.2rem solid #777' : '',
           }}
         >
-          {this.state.intro}
           {this.state.txt}
         </span>
       </h2>

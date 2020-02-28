@@ -42,10 +42,9 @@ class Main extends Component {
             <h2>Description:</h2>
             <hr />
             <h5>
-              Real-time chess application with randomized start positions. A
-              board generation algorithm ensures that there is a relative
-              balance between players, and given these constraints there are 960
-              possible start positions.
+              Real-time chess application with randomized start positions. The
+              board generation algorithm attempts to make both sides equally
+              advantages, giving 960 possible game openings.
             </h5>
           </div>
         </section>
