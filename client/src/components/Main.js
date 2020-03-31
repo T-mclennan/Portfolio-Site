@@ -105,7 +105,7 @@ class Main extends Component {
                   <h2>Github</h2>
                 </a>
                 <h3>|</h3>
-                <a href={'http://safesf.ddns.net/'} target='_blank'>
+                <a href={'https://safesf.ddns.net/'} target='_blank'>
                   <h2>Deployment</h2>
                 </a>
               </div>
