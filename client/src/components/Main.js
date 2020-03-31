@@ -8,7 +8,6 @@ class Main extends Component {
       <div className='mainContent'>
         <section id='home'>
           <div class='stars'>
-            {' '}
             <Typer />
           </div>
         </section>
