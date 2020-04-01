@@ -116,7 +116,7 @@ class Main extends Component {
             <h5>
               Environmental web application where San Francisco residents can
               report and view environmental hazards to the city. This was a
-              project from a software engineering class from the summer of 2019.
+              project from a software engineering class from summer 2019.
             </h5>
           </div>
         </section>
@@ -187,13 +187,6 @@ class Main extends Component {
               </div>
             </div>
           </div>
-
-          {/* <p>
-            Forms practice aims to develop professionalism around the use of
-            forms. - Node and Express for the server - EJS was used to template
-            the pages - Bootstrap and CSS for styling - Costum regex for
-            validation - reCaptcha 2.0 - Google map and geolocation services
-          </p> */}
 
           <div className='project-details description-top forms-top'>
             <h2>Description:</h2>
