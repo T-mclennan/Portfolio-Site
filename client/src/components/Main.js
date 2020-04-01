@@ -218,8 +218,7 @@ class Main extends Component {
             <h5>
               Input form with high design quality, error handling, field
               validation, robustness to attacks, cross browser and platform
-              compatibility and usability. Assignment from a UI/UX class summer
-              2019.
+              compatibility and usability. Assignment from a UI/UX class.
             </h5>
           </div>
         </section>
