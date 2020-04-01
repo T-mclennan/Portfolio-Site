@@ -7,30 +7,42 @@ class Main extends Component {
     return (
       <div className='mainContent'>
         <section id='home'>
-          <div class='stars'>
+          <div className='stars'>
             <Typer />
           </div>
         </section>
 
         <section id='home2'>
-          <div class='stars'> </div>
+          <div className='stars'> </div>
         </section>
+
+        {/* rel='noopener noreferrer' prevents cross origin attacks. more info can be found at: 
+            https://developers.google.com/web/tools/lighthouse/audits/noopener  */}
 
         <section id='chess'>
           <div className='chess-header header'>
             <div className='header-content'>
-              <a href={'https://chess-960.herokuapp.com/'} target='_blank'>
+              <a
+                href={'https://chess-960.herokuapp.com/'}
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 Chess 960
               </a>
               <div className='subHeader'>
                 <a
                   href={'https://github.com/T-mclennan/Chess-960'}
                   target='_blank'
+                  rel='noopener noreferrer'
                 >
                   <h3>Github</h3>
                 </a>
                 <h3 style={{ color: 'white' }}>|</h3>
-                <a href={'https://chess-960.herokuapp.com/'} target='_blank'>
+                <a
+                  href={'https://chess-960.herokuapp.com/'}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   <h3>Deployment</h3>
                 </a>
               </div>
@@ -91,7 +103,11 @@ class Main extends Component {
         <section id='sfsafe'>
           <div className='safesf-header header'>
             <div className='header-content'>
-              <a href={'http://safesf.ddns.net/'} target='_blank'>
+              <a
+                href={'http://safesf.ddns.net/'}
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 Safe SF
               </a>
               <div className='subHeader'>
@@ -100,11 +116,16 @@ class Main extends Component {
                     'https://github.com/T-mclennan/Summer-Project-2019/tree/master/application'
                   }
                   target='_blank'
+                  rel='noopener noreferrer'
                 >
                   <h2>Github</h2>
                 </a>
                 <h3>|</h3>
-                <a href={'https://safesf.ddns.net/'} target='_blank'>
+                <a
+                  href={'https://safesf.ddns.net/'}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   <h2>Deployment</h2>
                 </a>
               </div>
@@ -167,6 +188,7 @@ class Main extends Component {
               <a
                 href={'https://tmclennan-form-assignment.herokuapp.com/'}
                 target='_blank'
+                rel='noopener noreferrer'
               >
                 Form Project
               </a>
@@ -174,6 +196,7 @@ class Main extends Component {
                 <a
                   href={'https://github.com/T-mclennan/Forms-Practice'}
                   target='_blank'
+                  rel='noopener noreferrer'
                 >
                   <h3>Github</h3>
                 </a>
@@ -181,6 +204,7 @@ class Main extends Component {
                 <a
                   href={'https://tmclennan-form-assignment.herokuapp.com/'}
                   target='_blank'
+                  rel='noopener noreferrer'
                 >
                   <h3>Deployment</h3>
                 </a>
@@ -194,8 +218,8 @@ class Main extends Component {
             <h5>
               Input form with high design quality, error handling, field
               validation, robustness to attacks, cross browser and platform
-              compatibility and usability. Created as an assignment in UI/UX
-              class for Summer 2019.
+              compatibility and usability. Assignment from a UI/UX class summer
+              2019.
             </h5>
           </div>
         </section>
