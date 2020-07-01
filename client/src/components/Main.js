@@ -52,7 +52,7 @@ class Main extends Component {
           <div className='project-details description-top chess-top'>
             <h2>Description:</h2>
             <hr />
-            <p style={{ marginLeft: '2.5rem' }}>
+            <p className='text-content' style={{ marginLeft: '2.5rem' }}>
               Real-time chess application with randomized start positions. The
               board generation algorithm attempts to make both sides equally
               advantages, giving 960 possible game openings.
@@ -64,20 +64,20 @@ class Main extends Component {
           <div className='project-details description-bottom chess-bottom'>
             <h2>Architecture:</h2>
             <hr />
-            <p>
+            <div className='text-content'>
               <ul>
-                <li>Node.js with Express for backend.</li>
-                <li>React, Redux, Reactstrap, CSS.</li>
-                <li>JWT for Authentication.</li>
-                <li>MongoDB Atlas for storage.</li>
-                <li>Socket.io for real time data transfer.</li>
+                <li>Node.js + Express for server and control logic</li>
+                <li>React, Redux, Reactstrap, CSS</li>
+                <li>JSON webtoken for protecting endpoints + Authentication</li>
+                <li>MongoDB Atlas for data storage</li>
+                <li>Socket.io for real time data transfer</li>
                 <li>Deployed on Heroku</li>
               </ul>
-            </p>
+            </div>
             <hr />
             <h2>Features:</h2>
             <hr />
-            <p>
+            <div className='text-content'>
               <ul>
                 <li>GUI for Lobby, Game creation, and Game logic.</li>
                 <li>
@@ -96,7 +96,7 @@ class Main extends Component {
                 </li>
                 <li>View of online players in lobby real time.</li>
               </ul>
-            </p>
+            </div>
           </div>
         </section>
 
@@ -134,7 +134,7 @@ class Main extends Component {
           <div className='project-details description-top sfsafe-top'>
             <h2>Description:</h2>
             <hr />
-            <p style={{ marginLeft: '2.5rem' }}>
+            <p className='text-content' style={{ marginLeft: '2.5rem' }}>
               Environmental web application where San Francisco residents can
               report and view environmental hazards to the city. This was a
               project from a software engineering class from summer 2019.
@@ -146,20 +146,20 @@ class Main extends Component {
           <div className='project-details description-bottom sfsafe-bottom'>
             <h2>Architecture:</h2>
             <hr />
-            <p>
+            <div className='text-content'>
               <ul>
-                <li>Node.js with Express for backend</li>
+                <li>Node.js + Express for server and control logic</li>
                 <li>Javascript, CSS, Bootstrap</li>
-                <li>JWT for Authentication</li>
-                <li>MySQL for storage</li>
+                <li>JSON webtoken for protecting endpoints + Authentication</li>
+                <li>MySQL as data storage</li>
                 <li>Google Maps, Geolocation, reCaptcha v2 APIs</li>
-                <li>Deployed on AWS</li>
+                <li>Deployed with AWS EC2</li>
               </ul>
-            </p>
+            </div>
             <hr />
             <h2>Features:</h2>
             <hr />
-            <p>
+            <div className='text-content'>
               <ul>
                 <li>
                   Search and view the details of hazards that have been reported
@@ -178,7 +178,7 @@ class Main extends Component {
                   pending hazards, and assign or deny them.
                 </li>
               </ul>
-            </p>
+            </div>
           </div>
         </section>
 
@@ -215,7 +215,7 @@ class Main extends Component {
           <div className='project-details description-top forms-top'>
             <h2>Description:</h2>
             <hr />
-            <p style={{ marginLeft: '2.5rem' }}>
+            <p className='text-content' style={{ marginLeft: '2.5rem' }}>
               Input form with high design quality, error handling, field
               validation, robustness to attacks, cross browser and platform
               compatibility and usability. Assignment from a UI/UX class.
@@ -227,18 +227,18 @@ class Main extends Component {
           <div className='project-details description-bottom forms-bottom'>
             <h2>Architecture:</h2>
             <hr />
-            <p>
+            <div className='text-content'>
               <ul>
-                <li>Node.js with Express for backend</li>
+                <li>Node.js + Express for server and control logic</li>
                 <li>HTML, EJS, CSS, Bootstrap</li>
                 <li>Google Maps, Geolocation, reCaptcha v2 APIs </li>
                 <li>Deployed on Heroku</li>
               </ul>
-            </p>
+            </div>
             <hr />
             <h2>Features:</h2>
             <hr />
-            <p>
+            <div className='text-content'>
               <ul>
                 <li>Clear and concise Input Form</li>
                 <li>Custom Regex patterns for client side validation</li>
@@ -251,7 +251,7 @@ class Main extends Component {
                   address.
                 </li>
               </ul>
-            </p>
+            </div>
           </div>
         </section>
       </div>

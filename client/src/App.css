@@ -38,10 +38,9 @@ body {
   color: #f6f6f6;
   margin: auto;
   height: 100%;
-  padding: 2rem 0;
   background-color: #00072d;
   flex: 1;
-  padding: 2rem 1rem;
+  padding: 2rem 1.2rem;
 }
 
 .leftSidebar ul {
@@ -178,7 +177,7 @@ a {
   margin: 1.5rem 2rem;
 } */
 
-.project-details p {
+.project-details .text-content {
   text-align: left;
   font-size: 1.4rem;
   font-weight: 'normal';
