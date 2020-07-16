@@ -22,6 +22,9 @@ class Sidebar extends Component {
         <div className='projects'>
           <ul>
             <li>
+              <a href='#mines'>Covid-Sweeper</a>
+            </li>
+            <li>
               <a href='#chess'>Chess 960</a>
             </li>
             <li>

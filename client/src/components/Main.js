@@ -19,6 +19,88 @@ class Main extends Component {
         {/* rel='noopener noreferrer' prevents cross origin attacks. more info can be found at: 
             https://developers.google.com/web/tools/lighthouse/audits/noopener  */}
 
+        <section id='mines'>
+          <div className='mines-header header'>
+            <div className='header-content'>
+              <a
+                href={'https://covid-sweeper.com/'}
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Covid Sweeper
+              </a>
+              <div className='subHeader'>
+                <a
+                  href={'https://github.com/T-mclennan/Chess-960'}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <h3>Github</h3>
+                </a>
+                <h3 style={{ color: 'white' }}>|</h3>
+                <a
+                  href={'https://covid-sweeper.com/'}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <h3>Deployment</h3>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className='project-details description-top chess-top'>
+            <h2>Description:</h2>
+            <hr />
+            <p className='text-content' style={{ marginLeft: '2.5rem' }}>
+              Minesweeper game with a serverless backend, deployed using AWS
+              lambda and other cloud based services. Animations and audio were
+              recently added, and more features to come!
+            </p>
+          </div>
+        </section>
+
+        <section id='mines2'>
+          <div className='project-details description-bottom chess-bottom'>
+            <h2>Architecture:</h2>
+            <hr />
+            <div className='text-content'>
+              <ul>
+                <li>
+                  AWS Lambda, Gateway, Amplify, CloudFront, CloudFormation
+                </li>
+                <li>React, Redux, Reactstrap, CSS</li>
+                <li>JSON webtoken for protecting endpoints + Authentication</li>
+                <li>DynamoDB for data storage, protected by Gateway</li>
+                <li>
+                  Cognito is used to issue guest access tokens for API usage
+                </li>
+                <li>Jest & React-Testing-Library for unit testing.</li>
+                <li>Deployed as MicroServices on AWS</li>
+              </ul>
+            </div>
+            <hr />
+            <h2>Features:</h2>
+            <hr />
+            <div className='text-content'>
+              <ul>
+                <li>GUI for Lobby, Settings, Scoreboard, and Game logic.</li>
+                <li>
+                  The game has customizable parameters and layout, 3 kinds of
+                  mouse input.
+                </li>
+                <li>Players can adjust color scheme, sfx, and animations</li>
+                <li>Scoring is based on speed and mine density</li>
+                <li>High scores are visible on a public Scoreboard</li>
+                <li>
+                  Mobile users can't enjoy the game, they're presented with an
+                  apologetic 404 page
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
         <section id='chess'>
           <div className='chess-header header'>
             <div className='header-content'>

@@ -266,6 +266,23 @@ section .header-content {
   height: 23.3rem;
 }
 
+section .mines-header {
+  /* padding-top: 3.2rem; */
+  background-image: linear-gradient(
+      rgba(18, 34, 61, 0.9),
+      rgba(24, 45, 80, 0.85),
+      rgba(24, 45, 80, 0.98)
+    ),
+    url('./assets/covid-sweeper.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 1.5rem 1.5rem 0 0;
+  box-shadow: 3px 3px 18px rgb(54, 41, 54, 0.8);
+  border: solid rgb(116, 193, 238);
+  border-width: 1px 1px 0px 1px;
+  width: 100%;
+}
+
 section .chess-header {
   /* padding-top: 3.2rem; */
   background-image: linear-gradient(
@@ -383,8 +400,8 @@ section#home2 {
     linear-gradient(180deg, #00072d, hsl(219, 97%, 17%));
 }
 
-section#chess {
-  padding: 5.6rem 9.5rem;
+section#mines {
+  padding: 7.6rem 9.5rem 0;
   background: repeating-linear-gradient(
       0deg,
       rgba(255, 255, 255, 0.14) 0px,
@@ -400,6 +417,52 @@ section#chess {
       transparent 26px
     ),
     linear-gradient(180deg, hsl(219, 97%, 17%), hsl(206, 87%, 54%));
+}
+
+section#mines2 {
+  padding: 0 9.5rem;
+  background: repeating-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.16) 0px,
+      rgba(255, 255, 255, 0.16) 1px,
+      transparent 1px,
+      transparent 26px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.16) 0px,
+      rgba(255, 255, 255, 0.16) 1px,
+      transparent 1px,
+      transparent 26px
+    ),
+    linear-gradient(180deg, hsl(206, 87%, 54%), hsl(206, 87%, 54%));
+}
+
+section#mines hr {
+  background-color: rgb(73, 136, 172);
+}
+
+section#mines2 hr {
+  background-color: rgb(73, 136, 172);
+}
+
+section#chess {
+  padding: 7.6rem 9.5rem 0;
+  background: repeating-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.14) 0px,
+      rgba(255, 255, 255, 0.14) 1px,
+      transparent 1px,
+      transparent 26px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.14) 0px,
+      rgba(255, 255, 255, 0.14) 1px,
+      transparent 1px,
+      transparent 26px
+    ),
+    linear-gradient(180deg, hsl(206, 87%, 54%), hsl(206, 87%, 54%));
 }
 
 section#chess2 {
@@ -430,7 +493,7 @@ section#chess2 hr {
 }
 
 section#sfsafe {
-  padding: 5.6rem 9.5rem;
+  padding: 7.6rem 9.5rem 0;
   background: repeating-linear-gradient(
       0deg,
       rgba(255, 255, 255, 0.16) 0px,
@@ -477,7 +540,7 @@ section#sfsafe2 hr {
 }
 
 section#forms {
-  padding: 5.6rem 9.5rem;
+  padding: 7.6rem 9.5rem 0;
   background: repeating-linear-gradient(
       0deg,
       rgba(255, 255, 255, 0.16) 0px,
