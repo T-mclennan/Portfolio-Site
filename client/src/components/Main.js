@@ -55,7 +55,7 @@ class Main extends Component {
             <p className='text-content' style={{ marginLeft: '2.5rem' }}>
               Minesweeper game with a serverless backend, deployed using AWS
               lambda and other cloud based services. Animations and audio were
-              recently added, and more features to come!
+              recently added, more features to come!
             </p>
           </div>
         </section>
@@ -67,16 +67,15 @@ class Main extends Component {
             <div className='text-content'>
               <ul>
                 <li>
-                  AWS Lambda, Gateway, Amplify, CloudFront, CloudFormation
+                  AWS Lambda, Gateway, Cognito, CloudFront, CloudFormation
                 </li>
-                <li>React, Redux, Reactstrap, CSS</li>
-                <li>JSON webtoken for protecting endpoints + Authentication</li>
-                <li>DynamoDB for data storage, protected by Gateway</li>
+                <li>React, Reactstrap, CSS, AWS Amplify</li>
+                {/* <li>JSON webtoken for protecting endpoints + Authentication</li> */}
+                <li>DynamoDB is used for storage, protected by Gateway</li>
                 <li>
                   Cognito is used to issue guest access tokens for API usage
                 </li>
                 <li>Jest & React-Testing-Library for unit testing.</li>
-                <li>Deployed as MicroServices on AWS</li>
               </ul>
             </div>
             <hr />
